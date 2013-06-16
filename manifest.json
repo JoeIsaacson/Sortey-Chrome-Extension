@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sortey Search Organizer",
+  "description": "This extension automatically sorts your product searches, so you can find products faster",
+  "version": "1.1",
+
+  "premmissions": ["tabs"],
+
+  "browser_action": {
+    "default_icon": "img/icon/sortey_icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "homepage_url": "http://facebook.com",
+  "icons": { "16": "img/icon/icon16.png",
+             "48": "img/icon/icon48.png",
+            "128": "img/icon/icon128.png" }
+}
